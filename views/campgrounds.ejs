@@ -1,3 +1,5 @@
+<% include partials/header %>
+
 <h1>This is the campgrounds page.</h1>
 
 <% campgrounds_key.forEach((campgrounds_value) => { %>
@@ -6,3 +8,4 @@
      <img src="<%= campgrounds_value.image %>"> 
  </div>
 <% }); %>
+<% include partials/footer %>
